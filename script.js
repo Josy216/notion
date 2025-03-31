@@ -19,7 +19,7 @@ btn.addEventListener("click", () => {
   let delimage = document.createElement("img");
   pElement.className = "para";
   pElement.setAttribute("contenteditable", "true");
-  delimage.src = "loaading.jpg";
+  delimage.src = "trash.jpg";
   diary.appendChild(pElement).appendChild(delimage);
   newStorage();
 });
